@@ -1,38 +1,6 @@
 {
     "cursos": [
       {
-          "id": 3,
-          "name": "Programación Desde Cero",
-          "subtitle": "Programar no se trata de código, se trata de lógica. Este curso te enseña la lógica que te permitirá dominar cualquier lenguaje.",
-          "picture": "https://ethereumprice.org/wp-content/uploads/2019/07/ethereum-1-1024x676.jpeg",
-          "information": "La programación puede parecer intimidante al principio, sin embargo todos los lenguajes comparten los mismos principios y la misma lógica. Este curso te enseñará a pensar como un programador, creando algoritmos y aplicando soluciones en tres lenguajes: Java, Go y JavaScript. Si quieres convertirte en programador, este curso te enseñará los fundamentos para programar en cualquier lenguaje.",
-          "you_learn": "<li>Comprender los fundamentos de programación</li>\n<li>Comprender la lógica que está detrás de cualquier lenguaje</li>\n<li>Resolver ejercicios de olimpiadas de programación</li>",
-          "requirements": "<li>Ninguno (saber encender una computadora y utilizarla). Este curso es desde cero y solo necesitas querer aprender a programar.</li>",
-          "level": "BEGIN",
-          "course_type": "COURSE",
-          "visible": true,
-          "comming": false,
-          "comming_date": "2017-02-06T17:00:00Z",
-          "on_sale": false,
-          "free": true,
-          "slug": "programacion"
-      },
-      {
-          "id": 2,
-          "name": "Drupal Desde Cero",
-          "subtitle": "Crea sitios web profesionales y escalables con el CMS más poderoso del mercado.",
-          "picture": "https://koinbulteni.com/wp-content/uploads/dgfdg.jpg",
-          "information": "Drupal es un CMS escrito en PHP y basado en Symphony por lo que toma las mejores prácticas con PHP (p.ej. manejo de dependencias con Composer) convirtiéndose en una poderosa alternativa para construir sitios y aplicaciones web, pues puede usarse como CMS y a la vez como framework de desarrollo. Con Drupal puedes construir sitios robustos y escalables. Empresas como Lamborghini, Nasdaq, NBA, La Casa Blanca, Pinterest, entre otras, usan Drupal en sus sitios corporativos. Además, en Escuela Digital nuestra plataforma de cursos y nuestro sitio web llevan Drupal en su interior.",
-          "you_learn": "<li>Administrar sitios Drupal.</li>\n<li>Agregar modulos y temas a Drupal.</li>\n<li>Crear tipos de contenido y taxonomías.</li>\n<li>Vistas.</li>\n<li>Tu primer sitio Drupal</li>",
-          "requirements": "<li>Manejo básico de una computadora y navegar por internet.</li>",
-          "level": "BEGIN",
-          "course_type": "COURSE",
-          "visible": true,
-          "comming": false,
-          "comming_date": "2017-04-03T17:00:00Z",
-          "slug": "drupal"
-      },
-      {
           "id": 1,
           "name": "Bases de Datos Desde Cero",
           "subtitle": "Diseña, estructura y administra bases de datos SQL y crea un sistema de facturación",
@@ -49,20 +17,6 @@
       }
     ],
     "posts": [
-      {
-        "id": 3,
-        "author": "Cosme Fulanito",
-        "title": "Hackaton de EDteam 2019 ... habrá?",
-        "fecha": "20/07/2019 a las 10:45",
-        "content": "Etiam varius in erat id euismod. Fusce nisl justo, facilisis in egestas tristique, placerat fringilla augue. Curabitur gravida, massa ut consequat fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
-      },
-      {
-        "id": 2,
-        "author": "Cosme Fulanito",
-        "title": "Por favor no escribir en mayúsculas",
-        "fecha": "20/07/2019 a las 10:45",
-        "content": "Etiam varius in erat id euismod. Fusce nisl justo, facilisis in egestas tristique, placerat fringilla augue. Curabitur gravida, massa ut consequat fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
-      },
       {
         "id": 1,
         "author": "Cosme Fulanito",
@@ -137,24 +91,6 @@
                               "updated_at": "2019-05-31T12:52:28.629651Z"
                           },
                           "subject_resources": []
-                      },
-                      {
-                          "subject": {
-                              "id": 4425,
-                              "class_id": 812,
-                              "title": "1.2 - Virtual DOM",
-                              "is_public": false,
-                              "duration": "0000-01-01T00:08:01Z",
-                              "duration_string_format": "00:08:01",
-                              "notes": "  ",
-                              "with_subscription": true,
-                              "allow_notes": true,
-                              "available": true,
-                              "slug": "",
-                              "created_at": "2019-04-25T14:11:14.953641Z",
-                              "updated_at": "2019-05-31T13:34:53.086749Z"
-                          },
-                          "subject_resources": []
                       }
                   ]
               }
@@ -216,171 +152,5 @@
                           "updated_at": "2019-06-14T10:24:06.64808Z"
                       }
                   ]
-              },
-              {
-                  "id": 181,
-                  "name": "React - Rutas, APIs & Hooks",
-                  "subtitle": "Aprende a integrar React.js con librerías de terceros para ampliar sus características.",
-                  "picture": "https://drupal.ed.team/sites/default/files/imagenes-cdn-edteam/2019-04/React%20Rutas%20peticiones%20hooks.png",
-                  "information": "Este curso te enseñará a integrar React Router para construir las rutas de la aplicación. Utilizar librerías para peticiones a APIs REST y ampliar las características de los componentes con hooks y componentes de orden superior.",
-                  "you_learn": "<li>Crear rutas con React Router</li>\n<li>Peticiones HTTP con Axios y Fetch</li>\n<li>Componentes de orden superior</li>\n<li>Hooks en React</li>",
-                  "requirements": "<li><a href=\"https://ed.team/cursos/react\" target=\"blank\">React desde cero</a></li>",
-                  "level": "INTERMEDIATE",
-                  "is_live": false,
-                  "course_type": "COURSE",
-                  "visible": true,
-                  "comming": false,
-                  "comming_date": "2019-06-13T15:00:00Z",
-                  "on_sale": true,
-                  "free": false,
-                  "for_premium": false,
-                  "slug": "react-route",
-                  "is_inscription": false,
-                  "is_private": false,
-                  "duration": "0000-01-01T05:27:07Z",
-                  "course_hours": "4",
-                  "video": "",
-                  "live_end_date": "2019-06-24T00:00:00Z",
-                  "created_at": "2019-04-25T15:03:02.015708Z",
-                  "updated_at": "2019-07-25T00:01:01.44099Z",
-                  "professor": [
-                      {
-                          "id": 1437,
-                          "firstname": "Beto",
-                          "lastname": "Quiroga",
-                          "email": "beto@ed.team",
-                          "gender": "",
-                          "birthdate": "1990-02-22T00:00:00Z",
-                          "country_id": 4,
-                          "city": "Santa Cruz",
-                          "country_name": "Bolivia",
-                          "picture": "avatars/38118146-4b4a-4844-8959-157614e04cd1.jpg",
-                          "profile_thumbnail": "avatars/38118146-4b4a-4844-8959-157614e04cd1.jpg",
-                          "hireme": false,
-                          "biography": "Hace 6 años conocí Drupal y su gran comunidad. Desde ese entonces soy un fiel convencido de que las comunidades de desarrollo son una de las mejores formas de crecer en nuestra área. He tenido la suerte de trabajar en proyectos de todo tipo (más que todo web) y he conocido todas las etapas del desarrollo de un producto, desde la negociación, planificación, desarrollo, testing y hasta comercialización. Eso me ha ayudado a poder tener una visión más amplia de cómo suceden las cosas detrás de cada proyecto. Actualmente soy el director de operaciones de EDteam y paralelamente participo en el desarrollo de diferentes proyectos.",
-                          "degree_id": 0,
-                          "role_id": 1,
-                          "confirmed_email": true,
-                          "identification_type": "DNI",
-                          "identification": "12",
-                          "is_staff": true,
-                          "phone_number": "",
-                          "address": "",
-                          "is_subscription": true,
-                          "created_at": "2018-02-01T03:41:39.822331Z",
-                          "updated_at": "2019-06-14T10:24:06.64808Z"
-                      }
-                  ]
-              },
-              {
-                  "id": 182,
-                  "name": "React - Manejo del estado de la aplicación",
-                  "subtitle": "Aprende a manejar un estado global para toda tu aplicación para controlar el estado de los componentes",
-                  "picture": "https://drupal.ed.team/sites/default/files/imagenes-cdn-edteam/2019-04/React%20Rutas%20manejo%20de%20estados%20%281%29.png",
-                  "information": "Los componentes tienen su propio estado que no es compartido con otros. El estado global resuelve este inconveniente permitiendo que todos los componentes estén suscritos a él y se actualicen cuando sea modificado.",
-                  "you_learn": "<li>Conceptos del estado global</li>\n<li>Integración de Redux a tu app</li>\n<li>Uso de Context API</li>\n<li>Diferencias y ventajas entre las varias soluciones</li>",
-                  "requirements": "<li><a href=\"https://ed.team/cursos/react\" target=\"_blank\">React desde cero</a></li>",
-                  "level": "INTERMEDIATE",
-                  "is_live": false,
-                  "course_type": "COURSE",
-                  "visible": true,
-                  "comming": false,
-                  "comming_date": "2019-06-27T15:00:00Z",
-                  "on_sale": true,
-                  "free": false,
-                  "for_premium": false,
-                  "slug": "react-state",
-                  "is_inscription": false,
-                  "is_private": false,
-                  "duration": "0000-01-01T06:05:05Z",
-                  "course_hours": "6",
-                  "video": "",
-                  "live_end_date": "2019-07-15T00:00:00Z",
-                  "created_at": "2019-04-27T00:57:09.668125Z",
-                  "updated_at": "2019-07-25T00:01:01.438225Z",
-                  "professor": [
-                      {
-                          "id": 1437,
-                          "firstname": "Beto",
-                          "lastname": "Quiroga",
-                          "email": "beto@ed.team",
-                          "gender": "",
-                          "birthdate": "1990-02-22T00:00:00Z",
-                          "country_id": 4,
-                          "city": "Santa Cruz",
-                          "country_name": "Bolivia",
-                          "picture": "avatars/38118146-4b4a-4844-8959-157614e04cd1.jpg",
-                          "profile_thumbnail": "avatars/38118146-4b4a-4844-8959-157614e04cd1.jpg",
-                          "hireme": false,
-                          "biography": "Hace 6 años conocí Drupal y su gran comunidad. Desde ese entonces soy un fiel convencido de que las comunidades de desarrollo son una de las mejores formas de crecer en nuestra área. He tenido la suerte de trabajar en proyectos de todo tipo (más que todo web) y he conocido todas las etapas del desarrollo de un producto, desde la negociación, planificación, desarrollo, testing y hasta comercialización. Eso me ha ayudado a poder tener una visión más amplia de cómo suceden las cosas detrás de cada proyecto. Actualmente soy el director de operaciones de EDteam y paralelamente participo en el desarrollo de diferentes proyectos.",
-                          "degree_id": 0,
-                          "role_id": 1,
-                          "confirmed_email": true,
-                          "identification_type": "DNI",
-                          "identification": "12",
-                          "is_staff": true,
-                          "phone_number": "",
-                          "address": "",
-                          "is_subscription": true,
-                          "created_at": "2018-02-01T03:41:39.822331Z",
-                          "updated_at": "2019-06-14T10:24:06.64808Z"
-                      }
-                  ]
-              },
-              {
-                  "id": 183,
-                  "name": "Plataforma de educación online con React.js",
-                  "subtitle": "Aprende a crear tu propia aplicación de cursos con React.js y basada en la experiencia de EDteam.",
-                  "picture": "https://drupal.ed.team/sites/default/files/imagenes-cdn-edteam/2019-04/React%20plataforma%20de%20cursos.png",
-                  "information": "En este Workshop aplicarás los conceptos de React.js para desarrollar desde cero tu propia aplicación de educación online como la de EDteam. Iremos desde la planificación hasta el despliegue de la aplicación en producción.",
-                  "you_learn": "<li>Planificar y estructurar un proyecto</li>\n<li>Escribir componentes según atomic design</li>\n<li>Utilizar el estado global</li>\n<li>Desplegar tu app en un servidor</li>",
-                  "requirements": "<li><a href=\"https://ed.team/cursos/react\" target=\"_blank\">React desde cero</a></li>\n<li><a href=\"https://ed.team/cursos/react-route\"  target=\"_blank\">React: Rutas, APIs & Hooks</a></li>\n<li><a href=\"https://ed.team/cursos/react-state\" target=\"_blank\">React: Manejo del estado</a></li>",
-                  "level": "HIGH",
-                  "is_live": false,
-                  "course_type": "WORKSHOP",
-                  "visible": true,
-                  "comming": true,
-                  "comming_date": "2019-07-25T15:00:00Z",
-                  "on_sale": true,
-                  "free": false,
-                  "for_premium": false,
-                  "slug": "workshop-react",
-                  "is_inscription": false,
-                  "is_private": false,
-                  "duration": "0001-01-01T00:00:00Z",
-                  "course_hours": "5",
-                  "video": "",
-                  "live_end_date": "2019-08-08T00:00:00Z",
-                  "created_at": "2019-04-27T01:15:20.733093Z",
-                  "updated_at": "2019-07-25T00:01:01.435491Z",
-                  "professor": [
-                      {
-                          "id": 1437,
-                          "firstname": "Beto",
-                          "lastname": "Quiroga",
-                          "email": "beto@ed.team",
-                          "gender": "",
-                          "birthdate": "1990-02-22T00:00:00Z",
-                          "country_id": 4,
-                          "city": "Santa Cruz",
-                          "country_name": "Bolivia",
-                          "picture": "avatars/38118146-4b4a-4844-8959-157614e04cd1.jpg",
-                          "profile_thumbnail": "avatars/38118146-4b4a-4844-8959-157614e04cd1.jpg",
-                          "hireme": false,
-                          "biography": "Hace 6 años conocí Drupal y su gran comunidad. Desde ese entonces soy un fiel convencido de que las comunidades de desarrollo son una de las mejores formas de crecer en nuestra área. He tenido la suerte de trabajar en proyectos de todo tipo (más que todo web) y he conocido todas las etapas del desarrollo de un producto, desde la negociación, planificación, desarrollo, testing y hasta comercialización. Eso me ha ayudado a poder tener una visión más amplia de cómo suceden las cosas detrás de cada proyecto. Actualmente soy el director de operaciones de EDteam y paralelamente participo en el desarrollo de diferentes proyectos.",
-                          "degree_id": 0,
-                          "role_id": 1,
-                          "confirmed_email": true,
-                          "identification_type": "DNI",
-                          "identification": "12",
-                          "is_staff": true,
-                          "phone_number": "",
-                          "address": "",
-                          "is_subscription": true,
-                          "created_at": "2018-02-01T03:41:39.822331Z",
-                          "updated_at": "2019-06-14T10:24:06.64808Z"
-                      }
-                  ]
               }
           ]
-      }
